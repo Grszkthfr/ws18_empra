@@ -1,0 +1,369 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "28.05.18"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+```
+
+# Heute
+ --- 
+
+## Erhebung
+## Programmieren mit PsychoPy
+## und Co.
+
+---
+
+## Zeitplan
+
+```{r dates, include=FALSE}
+
+Nr. <- c(1:14)
+
+Termine <- c()
+Thema <- c()
+for (i in Nr.){
+  day <- (as.Date("2018-04-09") + (i*7-7)) %>% format("%d. %B %Y")
+  Termine <- c(Termine,day)
+  }
+
+Nr. <- c(1:6, "", 7:13) # Pfingst entfällt 
+
+Thema <- c(
+  "Orga, Kennenlernen, ...",                                                               # Sitzung 1
+  "7 Todsünden psychologischer Forschung",                                                 # Sitzung 2
+  "",                                                                                      # Sitzung 3
+  "Entscheidung",                                                                          # Sitzung 4
+  "Forschungsfrage, Hypothesen, AV & UV",                                                  # Sitzung 5
+  "kurze Sitzung: Präregistrierung abschließen & Pilotierung (Mi, 16.5., oder Do, 17.5.)", # Sitzung 6
+  "Sitzung entfällt: Pfingsten, Erhebungsstart",                                           # Sitzung 7
+  "Erhebungsstatus, Programmieren und Co.",                                                # Sitzung 8
+  "Auswertung",                                                                            # Sitzung 9
+  "Erhebungsende, Auswertung",                                                             # Sitzung 10
+  "Auswertung/Poster (Texte)",                                                             # Sitzung 11
+  "Poster (Texte/Design)",                                                                 # Sitzung 12
+  "Poster (Design)",                                                                       # Sitzung 13
+  "Prüfung und Posterkongress vsl. am Mittwoch, den 11. Juli 2018 "                        # Sitzung 14
+  )
+
+Termine <- data.frame(Nr., Termine, Thema)
+
+rm(day, i, Nr., Thema)
+
+```
+
+<font size="-1">`r kable(Termine, format = 'html', table.attr = "style='width:100%;'", align = c("c","c","l")) `</font>
+
+---
+
+class: inverse, center, middle
+
+## Wie läuft die Erhebung?
+
+---
+
+### Was läuft schlecht?
+
+--
+
+-   Anleitung anpassen?
+-   Automatisierte Emails verschicken?
+
+--
+
+    -   *halb* möglich, müsste jeden Tag vor Erhebung manuell ausgeführt werden,
+    -   dann aber automatisch nur an Teilnehmer in entsprechenden Slots
+
+--
+
+### Was läuft gut?
+
+--
+
+-   Wie lang pro Versuchsperson?
+    -   VP enger takten?
+
+---
+
+class: inverse, center, middle
+
+## Programmieren
+---
+
+class: center, middle
+
+![](http://www.psychopy.org/_static/psychopyDocBanner2.gif)
+
+---
+
+### Python
+
+-   FOSS - **F**ree **O**pen **S**ource **S**oftware
+-   läuft auf **allen** Betriebssystemen
+-   *Mehrzweck*-Programmiersprache
+
+### PsychoPy
+
+-   Bibliothek in Python: Sammlung an relevanten Funktionen für die psychologische Forschung
+-   Eigenständiges Programm basierend auf Python: Mit allen relevanten Funktionen (und deren Abhängigkeiten) für psychologische Forschung
+
+---
+
+### GUI
+
+.pull-left[
+#### Builder
+-   point&click
+-   Tutorials und Material gibt es [hier](http://www.psychopy.org/resources/resources.html#materials-for-builder)
+
+![](img/5_1_builder.png)
+
+]
+
+.pull-right[
+#### Coder
+-   text-basiert
+-   Tutorials und Material gibt es überall & heute!
+
+![](img/5_2_coder.png)
+]
+
+--
+
+`r icon::fa_arrow_right()` Schließt den Builder und wählt die Shell im Coder aus.
+
+---
+
+### Shell
+
+-   direkte Interaktion: Befehle werden unmittelbar ausgeführt
+-   Wirklich?
+
+```{python comment='#', eval = FALSE}
+# Das wollen wir erstmal sehen!
+1 + 1
+
+5 * 5
+```
+
+--
+
+-   Mathematische Operatoren scheinen zu funktionieren!
+
+--
+
+### Kommentare
+
+```{python comment='#', eval = FALSE}
+# Was passiert jetzt in der Shell?
+# 1 + 1
+1 + 1 # funktioniert allerdings!
+```
+
+-   Nichts, denn Zeichen, die in einer Zeile dem # **folgen** werden bei der Ausführung ignoriert
+
+---
+
+### Variablen (und die erste Funktion!)
+
+```{python comment='#', eval = FALSE}
+print("Hello World") # string
+print(207)           # integer number
+print(11.1)          # real number
+print(False)         # boolean False, the opposite of True
+```
+
+--
+
+-   Variablen können Namen haben
+
+```{python comment='#', eval = FALSE}
+s = "Hello World!"
+u = 10
+p = 1.1
+i = u + p
+
+print(s)
+print(i)
+```
+
+--
+
+### Editor
+
+-   Versucht die gleichen Befehle im Editor und schaut im Output-Fenster was passiert. 
+
+---
+
+### Stimuluspräsentation
+
+--
+
+#### Vorbereitung
+
+--
+
+```{python comment='#', eval = FALSE}
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# The first line is called the hash bang. It helps operating
+# systems understand what to do with this script.
+# The second line describes the encoding of this file. UTF-8
+# is the only one used nowadays. It supports all alphabeths,
+# even runes and linear B.
+ 
+# Import the PsychoPy libraries that you want to use
+from psychopy import core, visual
+```
+-   In der Dokumentation sind die Funktionen (der Module) [hier](http://psychopy.org/api/visual.html) erklärt
+
+--
+    -   für *visual* findet man beispielsweise die beiden folgenden Funktionen [*Window*](http://psychopy.org/api/visual/window.html#psychopy.visual.Window) und [*TextStim*](http://psychopy.org/api/visual/imagestim.html#psychopy.visual.ImageStim)
+
+```{python comment='#', eval = FALSE}
+# Create a window
+win = visual.Window([400,300], monitor="testMonitor")
+ 
+# Create a stimulus for a certain window
+message = visual.TextStim(win, text="Hello World!")
+```
+
+---
+
+### Stimuluspräsentation
+#### Kontrolle
+
+--
+
+```{python comment='#', eval = FALSE}
+# Draw the stimulus to the window.
+message.draw()
+ 
+# Flip backside of the window.
+win.flip()
+ 
+# Pause 5 s, so you get a chance to see it!
+core.wait(5.0)
+```
+
+---
+
+### Stimuluspräsentation
+#### Aufräumen
+
+--
+
+```{python comment='#', eval = FALSE}
+# Close the window
+win.close()
+ 
+# Close PsychoPy
+core.quit()
+```
+
+---
+### Stimuluspräsentation
+
+```{python comment='#', eval = FALSE}
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from psychopy import core, visual
+ 
+win = visual.Window([400,300], monitor="testMonitor")
+ 
+message = visual.TextStim(win, text="Hello World!")
+ 
+message.draw()
+ 
+win.flip()
+ 
+core.wait(5.0)
+ 
+win.close()
+ 
+core.quit()
+```
+
+???
+
+-   Dokumentation benutzen um Größe, Farbe etc. von Text zu verändern?
+-   Dokumentation benutzen um Bild anzuzeigen?
+-   Zwei verschiedene Texte nacheinander?
+
+---
+
+### Input
+
+```{python comment='#', eval = FALSE}
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Note: import the event module
+from psychopy import core, visual, event
+  
+## Setup Section
+win = visual.Window([400,300], monitor="testMonitor")
+textString = "Press any key to continue\n"
+message = visual.TextStim(win, text=textString)
+ 
+## Experiment Section
+message.draw()
+win.flip()
+c = event.waitKeys() # read a character
+message = visual.TextStim(win, text=textString + c[0])
+message.draw()
+win.flip()
+event.waitKeys()
+ 
+## Closing Section
+win.close()
+core.quit()
+
+```
+
+---
+
+### Quellen
+-   Online Kurs-Material von der Radboud University Nijmegen [hier](https://www.socsci.ru.nl/wilberth/psychopy/00intro.html)
+    -   Print-/Singlepage-Version [hier](https://www.socsci.ru.nl/wilberth/nocms/psychopy/print.php)
+-   auf der offiziellen PsychoPy-Homepage: [hier](http://www.psychopy.org/resources/resources.html#materials-for-coder)
+
+---
+class: inverse, center, middle
+
+## und Co.
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+## Bis nächsten Montag.  
+
+# :-)
+
+
+.footnote[
+
+<font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com)</font size>
+
+]

@@ -1,0 +1,130 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "25.06.18"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+```
+
+# Heute
+ --- 
+
+## Ergebnisse
+## Diskussion
+## Poster erstellen
+
+---
+
+## Zeitplan
+
+```{r dates, include=FALSE}
+
+Nr. <- c(1:14)
+
+Termine <- c()
+Thema <- c()
+for (i in Nr.){
+  day <- (as.Date("2018-04-09") + (i*7-7)) %>% format("%d. %B %Y")
+  Termine <- c(Termine,day)
+  }
+
+Nr. <- c(1:6, "", 7:13) # Pfingst entfällt 
+
+Thema <- c(
+  "Orga, Kennenlernen, ...",                                                               # Sitzung 1
+  "7 Todsünden psychologischer Forschung",                                                 # Sitzung 2
+  "",                                                                                      # Sitzung 3
+  "Entscheidung",                                                                          # Sitzung 4
+  "Forschungsfrage, Hypothesen, AV & UV",                                                  # Sitzung 5
+  "kurze Sitzung: Präregistrierung abschließen & Pilotierung (Mi, 16.5., oder Do, 17.5.)", # Sitzung 6
+  "Sitzung entfällt: Pfingsten, Erhebungsstart",                                           #  
+  "Erhebungsstatus, Programmieren und Co.",                                                # Sitzung 7
+  "Auswertung",                                                                            # Sitzung 8
+  "Erhebungsende, Auswertung (verschoben), wissenschaftliches Poster",                     # Sitzung 9
+  "Auswertung/Poster (Texte)",                                                             # Sitzung 10
+  "Poster (Texte/Design)",                                                                 # Sitzung 11
+  "Poster (Design)",                                                                       # Sitzung 12
+  "Prüfung und Posterkongress vsl. am Mittwoch, den 11. Juli 2018 "                        # Sitzung 13
+  )
+
+Termine <- data.frame(Nr., Termine, Thema)
+
+rm(day, i, Nr., Thema)
+
+```
+
+<font size="-1">`r kable(Termine, format = 'html', table.attr = "style='width:100%;'", align = c("c","c","l")) `</font>
+
+.footnote[
+
+[Prüfungsanmeldung bei Albrecht Sebald (Gruppe 1) nicht vergessen!](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=191119&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+]
+
+---
+class: center, middle, inverse
+
+## Ergebnisse
+
+---
+class: center, middle
+
+![](https://www.jamovi.org/assets/header-logo.svg)
+
+---
+
+class: inverse, center, middle
+
+## Poster erstellen
+
+---
+
+### Title
+
+### Einleitung
+
+### Methoden
+
+### Ergebnisse
+
+### Diskussion
+
+### Referenzen
+
+### Design
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+## Bis nächsten Montag.  
+
+# :-)
+
+
+.footnote[
+
+<font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]
