@@ -1,8 +1,10 @@
 # Lernziele
 
-1.  Wie man ein experiment durchführt und plant (Kohärenz, guter Versuchsaufbau), bewerten (kritisch hinterfragen, probleme entdecken), erhebung 
-3.  wie kommt man auf einen Versuch? Neue Versuche? Was beachten?
-4.  Datenanalyse in R
-5.  Artikel zu lesen methode?!
-6.  wissenschaftliches Poster erstellen
-7.  Präregistrierung
+1.  Woher kommen Ideen für einen (neue) Versuch?
+2.  Wie Artikel lesen?
+3.  Experiment planen, präregistrieren
+4.  Was ist ein guter Versuchsaufbau?
+    +   Bewerten, kritisch hinterfragen, Probleme entdecken
+5.  Versuchserhebung
+6.  Datenanalyse (in R)
+7.  wissenschaftliches Poster erstellen

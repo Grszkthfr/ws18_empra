@@ -7,7 +7,7 @@ Erreichen könnt ihr [mich](http://www.i1.psychologie.uni-wuerzburg.de/ekp/perso
 
 Die aktuelle Modulbeschreibung findet ihr [hier](https://www2.uni-wuerzburg.de/mhb/MB-de-06-PSY-EFM-152-m01.pdf){:target="\_blank"}.
 
-[Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=191119&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="\_blank"} bei Albrecht Sebald (Gruppe 1) nicht vergessen!
+[Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201046&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="\_blank"} bei Albrecht Sebald (Gruppe 1) nicht vergessen!
 
 ### Sitzungen
 
@@ -15,9 +15,9 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 
 <table>
 <colgroup>
-<col width="6%" />
-<col width="20%" />
-<col width="73%" />
+<col width="5%" />
+<col width="17%" />
+<col width="77%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -40,7 +40,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">3</td>
 <td align="center">29. Oktober 2018</td>
-<td align="left"><em>Experimentelles Design besprechen, Präregistrierung</em></td>
+<td align="left">experimentelles Design, Präregistrierung, <a href="slides/sitzung03-vorbereitung.html">Folien</a></td>
 </tr>
 <tr class="even">
 <td align="center">4</td>

@@ -29,7 +29,7 @@ Thema <- c(
     'Lernziele, Inhalt, [Folien](slides/sitzung02-inhalt.html)',
     
     ### Sitzung 3
-    '*Experimentelles Design besprechen, Präregistrierung*',
+    'experimentelles Design, Präregistrierung, [Folien](slides/sitzung03-vorbereitung.html)',
     
     ### Sitzung 4
     '*Programmieren*',

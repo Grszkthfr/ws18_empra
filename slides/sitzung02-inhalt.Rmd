@@ -251,7 +251,7 @@ class: inverse
 
     +   Was ist [*pre-registration*](https://www.apa.org/science/about/psa/2015/08/pre-registration.aspx)?
     
-    +   [Oder](https://www.nature.com/articles/s41562-016-0021), [oder](http://blogs.discovermagazine.com/neuroskeptic/2012/04/14/fixing-science-systems-and-politics), [oder](http://www.cogsci.nl/blog/miscellaneous/215-the-pros-and-cons-of-pre-registration-in-fundamental-research) [mit](http://blogs.discovermagazine.com/neuroskeptic/2013/04/25/for-preregistration-in-fundamental-research/), [oder](https://www.theguardian.com/science/head-quarters/2014/may/20/psychology-registration-revolution), [oder](https://www.theguardian.com/science/head-quarters/2017/may/09/from-protoscience-to-proper-science-the-path-ahead-for-reforming-psychology)
+    +   [Oder](https://www.nature.com/articles/s41562-016-0021), [oder](http://blogs.discovermagazine.com/neuroskeptic/2012/04/14/fixing-science-systems-and-politics), [oder](http://www.cogsci.nl/blog/miscellaneous/215-the-pros-and-cons-of-pre-registration-in-fundamental-research) [mit](http://blogs.discovermagazine.com/neuroskeptic/2013/04/25/for-preregistration-in-fundamental-research/), [oder](https://www.theguardian.com/science/head-quarters/2014/may/20/psychology-registration-revolution), [oder](https://www.theguardian.com/science/head-quarters/2017/may/09/from-protoscience-to-proper-science-the-path-ahead-for-reforming-psychology), [oder](http://lmgtfy.com/?s=d&q=preregistration+psychology), ...
 
 ---
 class: inverse, center, middle
