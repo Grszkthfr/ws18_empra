@@ -2,7 +2,7 @@
 title: "Einführung in empirische und experimentelle Forschungsmethoden"
 subtitle: "Gruppe 08"
 author: "Jonas Großekathöfer"
-date: "30.04.2018"
+date: "05.11.2018"
 output:
   xaringan::moon_reader:
     css: ["default", "default-fonts", "my-theme.css"]
@@ -28,18 +28,9 @@ library(knitr)
 # Heute
  --- 
 
-## Versuchsdesign
-
 ## Präregistrierung
 
----
-class: inverse, center, middle
-
-## Versuchsdesign
-
----
-
-
+## Stimuli
 
 ---
 class: inverse, center, middle
@@ -48,12 +39,122 @@ class: inverse, center, middle
 
 ---
 
-## [AsPredicted.org](aspredicted.org)
+### Hypothesen
 
-+   Abschluß:
+--
+
+#### Gütemerkmale
+
++   Falsifizierbarkeit
++   Präzisierbarkeit
++   Theorierelevanz
++   Parsimonität ([Occam's Razor](https://de.wikipedia.org/wiki/Ockhams_Rasiermesser))
+    > In no case is an animal activity to be interpreted in terms of higher psychological processes, if it can be fairly interpreted in terms of processes which stand lower in the scale of psychological evolution and development.” (Morgan, 1906)
+
+
+.footnote[
+
+aus: Reiß, S. & Sarris, V. (2012). Experimentelle Psychologie: Von Theorie zur Praxis. Pearson Studium.
+
+]
+
+???
+
+präzisierbarkeit durch weiteren Faktor
+
+---
+class: inverse, center, middle
+
+## Stimuli
 
 ---
 
+### visuelle Stimuli
+
+### auditive Stimuli (optional)
+
+---
+
+background-image: url(https://www.gimp.org/images/frontpage/wilber-big.png)
+
+### visuelle Stimuli
+
+#### 1.  [Gimp](https://www.gimp.org/) (installieren &) öffnen
+
+---
+
+### visuelle Stimuli
+
+#### 2. .xfc-Datei öffnen
+
+![](img/04-01_open-img.png)
+---
+
+### visuelle Stimuli
+
+#### 3. Ebene (mit Foto) ausblenden
+
+![](img/04-02_ebene_ausblenden.png)
+---
+
+### visuelle Stimuli
+
+#### 4. Stimulus bearbeiten
+
+![](img/04-03_farbe-zauber-fill.png)
+---
+
+### visuelle Stimuli
+
+#### 5. Exportieren
+
+![](img/04-04_export.png)
+
+---
+
+### visuelle Stimuli
+
+#### Exportieren
+
+.pull-left[
+
+##### Dateiname  
+
+![](img/04-04_export-dia1.png)
+
+`r icon::fa_exclamation_triangle(color = "red")` **roi-**STIMULUS-ID**.png**
+
+]
+
+.pull-right[
+
+##### Exportieren
+
+![](img/04-04_export-dia2.png)
+
+]
+
+---
+
+### auditive Stimuli (optional)
+
+#### Auftreiben
+
++   kurze Dauer (2-5 Sekunden)
++   hochwertige Qualität
++   zur Szene passend
+
+---
+class: inverse
+
+# Nächste Woche
+
+ ---
+ 
++   visuelle Stimuli präperieren
++   passende auditive Stimuli auftreiben (optional)
+
+---
 
 class: inverse, center, middle
 

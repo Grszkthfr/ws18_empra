@@ -32,7 +32,7 @@ Thema <- c(
     'experimentelles Design, Präregistrierung, [Folien](slides/sitzung03-vorbereitung.html)',
     
     ### Sitzung 4
-    '*Programmieren*',
+    'Präregistrierung, Stimuli, [Folien](slides/sitzung04-prereg.html)',
     
     ### Sitzung 5
     '*Programmieren/ Pilotieren*',
