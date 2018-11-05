@@ -6,18 +6,20 @@
 
 ![](https://www.gimp.org/images/frontpage/wilber-big.png)
 
-### Farbe einstelleen
 
-#### 1. 
+
+### Farbe einstellen in 2 Schritten
+
 ![](img-instruction/03_color.png)
 
-####2.
+1.  Auf *Vorder- und Hintergrundfarben* klicken
+2.  In dem sich öffnenden Dialog die RGB-Werte eintragen
+    +   R: 255
+    +   G: 255
+    +   B: 0
+3.  Mit *OK* den Dialog schließen
 
-![](img-instruction/04_color-d1.png)
-+   R: 255, G: 255, B: 0
-+   Die Werte können direkt eingetippt werden, mit **OK** bestätigen.
-    +   Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in in Folge öffnet, ggf. sogar beim Programmneustart.
-
+Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in in Folge öffnet, ggf. sogar beim Programmneustart.
 
 ## Workflow
 
