@@ -75,64 +75,9 @@ class: inverse, center, middle
 
 ---
 
-background-image: url(https://www.gimp.org/images/frontpage/wilber-big.png)
-
 ### visuelle Stimuli
 
-#### 1.  [Gimp](https://www.gimp.org/) (installieren &) öffnen
-
----
-
-### visuelle Stimuli
-
-#### 2. .xfc-Datei öffnen
-
-![](img/04-01_open-img.png)
----
-
-### visuelle Stimuli
-
-#### 3. Ebene (mit Foto) ausblenden
-
-![](img/04-02_ebene_ausblenden.png)
----
-
-### visuelle Stimuli
-
-#### 4. Stimulus bearbeiten
-
-![](img/04-03_farbe-zauber-fill.png)
----
-
-### visuelle Stimuli
-
-#### 5. Exportieren
-
-![](img/04-04_export.png)
-
----
-
-### visuelle Stimuli
-
-#### 5. Exportieren
-
-.pull-left[
-
-##### Dateiname  
-
-![](img/04-04_export-dia1.png)
-
-`r icon::fa_exclamation_triangle(color = "red")` **roi-**STIMULUS-ID**.png**
-
-]
-
-.pull-right[
-
-##### Exportieren
-
-![](img/04-04_export-dia2.png)
-
-]
+siehe [hier](https://grszkthfr.github.io/ws18_empra/material/instruction.html)
 
 ---
 

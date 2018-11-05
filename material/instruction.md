@@ -4,6 +4,8 @@ Zur automatisierten Bearbeitung müssen die ROIs (Region-of-Interest) die gleich
 
 Anmerkung: Die Bilder können mit *Rechtsklick* *Grafik anzeigen* auch größer im Browser dargestellt werden.
 
+Die .xfc-Dateien können [hier](https://1drv.ms/u/s!Aq2HAPGT8kWihuQjFKBsMVDyO7sqXA) runtergeladen werden. Der Zuggang und die Datei ist Passwort geschützt, die Passwörter habt ihr per Mail erhalten.
+
 ## Vorbereitung 
 
 ### [Gimp](https://www.gimp.org/) (installieren &) öffnen
@@ -12,7 +14,7 @@ Anmerkung: Die Bilder können mit *Rechtsklick* *Grafik anzeigen* auch größer 
 
 ### Farbe einstellen
 
-![](img-instruction/03_color.png)
+[![](img-instruction/03_color.png)](https://grszkthfr.github.io/ws18_empra/material/img-instruction/03_color.png)
 
 1.  Auf *Vorder- und Hintergrundfarben* klicken
 2.  In dem sich öffnenden Dialog die RGB-Werte eintragen
