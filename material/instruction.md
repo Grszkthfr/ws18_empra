@@ -2,7 +2,7 @@
 
 Zur automatisierten Bearbeitung müssen die ROIs (Region-of-Interest) die gleichen Farben haben (Teil 1) und eine durchgängige Fläche ergeben (Teil2, folgt).
 
-Die Bilder können mit *Rechtsklick* *Grafik anzeigen* auch größer im Browser dargestellt werden.
+Anmerkung: Die Bilder können mit *Rechtsklick* *Grafik anzeigen* auch größer im Browser dargestellt werden.
 
 ## Vorbereitung 
 
