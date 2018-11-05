@@ -18,14 +18,14 @@
 ## 5. Exportieren
 ## 5. Exportieren
 
-![](img/04-04_export.png)
+![](img/04-04-export.png)
 
 ### Dateiname
 
 **roi-**STIMULUS-ID**.png**
 
-![](img/04-04_export-dia1.png)
+![](img/04-04-export-dia1.png)
 
 ### Exportieren
 
-![](img/04-04_export-dia2.png)
+![](img/04-04-export-dia2.png)
