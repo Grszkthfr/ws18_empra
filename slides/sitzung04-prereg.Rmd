@@ -48,7 +48,8 @@ class: inverse, center, middle
 +   Falsifizierbarkeit
 +   Präzisierbarkeit
 +   Theorierelevanz
-+   Parsimonität ([Occam's Razor](https://de.wikipedia.org/wiki/Ockhams_Rasiermesser))
++   Parsimonität
+    +   [Occam's Razor](https://de.wikipedia.org/wiki/Ockhams_Rasiermesser)
     > In no case is an animal activity to be interpreted in terms of higher psychological processes, if it can be fairly interpreted in terms of processes which stand lower in the scale of psychological evolution and development.” (Morgan, 1906)
 
 
