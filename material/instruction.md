@@ -1,27 +1,27 @@
 # Stimuli präparieren
 
+Zur automatisierten Bearbeitung müssen die ROIs (Region-of-Interest) die gleichen Farben haben (Teil 1) und eine durchgängige Fläche ergeben (Teil2, folgt).
+
 ## Vorbereitung 
 
 ### [Gimp](https://www.gimp.org/) (installieren &) öffnen
 
 ![](https://www.gimp.org/images/frontpage/wilber-big.png)
 
-
-
-### Farbe einstellen in 2 Schritten
+### Farbe einstellen
 
 ![](img-instruction/03_color.png)
 
 1.  Auf *Vorder- und Hintergrundfarben* klicken
 2.  In dem sich öffnenden Dialog die RGB-Werte eintragen
-    +   R: 255
-    +   G: 255
-    +   B: 0
+    +   R: **255**
+    +   G: **255**
+    +   B: **0**
 3.  Mit *OK* den Dialog schließen
 
-Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in in Folge öffnet, ggf. sogar beim Programmneustart.
+Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in Folge geöffnet werden, ggf. sogar beim Programmneustart.
 
-## Workflow
+## Workflow (Teil 1)
 
 ### Stimulus öffnen
 
@@ -35,7 +35,7 @@ Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in in Folge ö
 
 ![](img-instruction/05_prep-flow.png)
 
-#### Präparation in 5 Schritten
+#### Präparation in max. 5 Klicks
 
 1.  Ebene ausblenden
 2.  Zauberstab auswählen(Tastenkombination: **U**)
@@ -57,3 +57,7 @@ Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in in Folge ö
 ![](img-instruction/06_export-d2.png)
 +   *Exportieren* klicken
 
+## Workflow (Teil 2)
+
+Gegebenenfalls, je nach Performanz des Programms und Stimulusqualität (wird noch besprochen!) müssen die ROIs weiter angepasst werden. Beispielsweise wird das nötig, wenn der Henkel einer Tasse eine *Insel* "nicht-ROI" bildet, dann muss diese mit gelb ausgefüllt werden.  
+Anleitung folgt.
