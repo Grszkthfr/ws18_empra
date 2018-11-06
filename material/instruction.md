@@ -42,8 +42,8 @@ Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in Folge geöf
 #### Präparation in max. 5 Klicks
 
 1.  Ebene ausblenden
-2.  Zauberstab auswählen(Tastenkombination: **U**)
-3.  blaues Objekt (hier zur Anschauung gelb\blau daragestellt) durch Anklicken markieren
+2.  Zauberstab auswählen (Tastenkombination: **U**)
+3.  Blaues Objekt (hier zur Anschauung gelb\blau daragestellt) durch Anklicken markieren
 4.  Eimer auswählen (Tastenkombination: **Shift** + **B**)
     +   sicher stellen, dass die Farbe korrekt eingestellt ist
 5.  Markierte Fläche durch Anklicken einfärben
@@ -60,6 +60,12 @@ Diese Einstellung sollte erhalten bleiben, egal wie viele Dateien in Folge geöf
 
 [![](img-instruction/06_export-d2.png)](https://grszkthfr.github.io/ws18_empra/material/img-instruction/06_export-d1.png)
 +   *Exportieren* klicken
+
+## Ergebniss
+
+[![](img-instruction/07_result.png)](https://grszkthfr.github.io/ws18_empra/material/img-instruction/07_result.png)
+
++   So sollte dann die exportierte .png-Datei aussehen
 
 ## Workflow (Teil 2)
 
