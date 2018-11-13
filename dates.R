@@ -35,7 +35,7 @@ Thema <- c(
     'Präregistrierung, [Stimuli präparieren](https://grszkthfr.github.io/ws18_empra/material/instruction.html), [Folien](slides/sitzung04-prereg.html)',
     
     ### Sitzung 5
-    '*Programmieren/ Pilotieren*',
+    'Präregistrierung ([Power](http://rpsychologist.com/d3/NHST/)), Stimuli, [Folien](slides/sitzung05-power.html)',
     
     ### Sitzung 6
     '*Pilotieren*',
@@ -44,7 +44,7 @@ Thema <- c(
     '*Erhebung*',
     
     ### Sitzung 8
-    '*Erhebung*',
+    '**Entfällt**',
     
     ### Sitzung 9
     '*Auswertung*',
@@ -92,7 +92,7 @@ sitzungen <- data.frame(Nr., Termine, Thema) %>%
         'Nr.' = 1:n())
 
 ### Tabelle in html für slides
-sitzung_html <- 
+sitzunge_html <- 
     sitzungen %>%
     
     ### delete link to other slides in html table

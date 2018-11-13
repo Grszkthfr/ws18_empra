@@ -7,6 +7,8 @@ Erreichen könnt ihr [mich](http://www.i1.psychologie.uni-wuerzburg.de/ekp/perso
 
 Die aktuelle Modulbeschreibung findet ihr [hier](https://www2.uni-wuerzburg.de/mhb/MB-de-06-PSY-EFM-152-m01.pdf){:target="\_blank"}.
 
+(**!NEU:**) Informationen zu den verschiedenen Accounts, die im Laufe des Empras benötigt werden, findet ihr [hier](material/account.md).
+
 [Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201046&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="\_blank"} bei Albrecht Sebald (Gruppe 1) nicht vergessen!
 
 ### Sitzungen
@@ -50,7 +52,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">5</td>
 <td align="center">12. November 2018</td>
-<td align="left"><em>Programmieren/ Pilotieren</em></td>
+<td align="left">Präregistrierung (<a href="http://rpsychologist.com/d3/NHST/">Power</a>), Stimuli, <a href="slides/sitzung05-power.html">Folien</a></td>
 </tr>
 <tr class="even">
 <td align="center">6</td>
@@ -65,7 +67,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="even">
 <td align="center">8</td>
 <td align="center">03. Dezember 2018</td>
-<td align="left"><em>Erhebung</em></td>
+<td align="left"><strong>Entfällt</strong></td>
 </tr>
 <tr class="odd">
 <td align="center">9</td>
