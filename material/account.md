@@ -28,6 +28,7 @@ Anmerkung: Die Bilder können mit einem Klick vergrößert im Browser dargestell
 
 über: [WueTeams: Zusammenarbeit im Team mit "Novell Vibe" (RZ)](https://www.rz.uni-wuerzburg.de/dienste/zusammenarbeit/wueteams/)
 
-## Email
+## EE-Mail mail
 
 [Webmail](https://webmail.uni-wuerzburg.de/login.php): Zum Kontakt mit Versuchspersonen.
++   E-Mailadresse: [empra.grossekathoefer@uni-wuerzbug.de](mailto:empra.grossekathoefer@uni-wuerzbug.de) 
