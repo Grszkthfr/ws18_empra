@@ -32,7 +32,7 @@ Thema <- c(
     'experimentelles Design, Präregistrierung, [Folien](slides/sitzung03-vorbereitung.html)',
     
     ### Sitzung 4
-    'Präregistrierung, [Stimuli präparieren](https://grszkthfr.github.io/ws18_empra/material/instruction.html), [Folien](slides/sitzung04-prereg.html)',
+    'Präregistrierung, [Stimuli präparieren](material/instruction.html), [Folien](slides/sitzung04-prereg.html)',
     
     ### Sitzung 5
     'Präregistrierung ([Power](http://rpsychologist.com/d3/NHST/)), Stimuli, [Folien](slides/sitzung05-power.html)',
