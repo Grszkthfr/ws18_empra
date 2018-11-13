@@ -1,14 +1,13 @@
 # Empra-Account
 
-empra.grossekathoefer@uni-wuerzburg.de
-
 Zugangsdaten per Mail erhalten
+Anmerkung: Die Bilder können mit einem Klick vergrößert im Browser dargestellt werden.
 
 ## Netzlaufwerk
 
 [files.uni-wuerzburg.de](files.uni-wuerzburg.de): Zum Teilen von Dateien untereinander.
 
-![](lib-account/wuefiles.gif)
+[![](lib-account/wuefiles.gif)](https://grszkthfr.github.io/ws18_empra/material/lib-account/wuefiles.gif)
 
 +   Bei fehlendem Speicherplatz bitte Bescheid geben
 
@@ -24,9 +23,9 @@ Zugangsdaten per Mail erhalten
 
 [WueTeams](https://wueteams.uni-wuerzburg.de): Zum Buchen der Laborräume.
 
-![](lib-account/wueteams.gif)
+[![](lib-account/wueteams.gif)](https://grszkthfr.github.io/ws18_empra/material/lib-account/wueteams.gif)
 
-über: [WueTeams: Zusammenarbeit im Team mit "Novell Vibe"](https://www.rz.uni-wuerzburg.de/dienste/zusammenarbeit/wueteams/)
+über: [WueTeams: Zusammenarbeit im Team mit "Novell Vibe" (RZ)](https://www.rz.uni-wuerzburg.de/dienste/zusammenarbeit/wueteams/)
 
 ## Email
 
