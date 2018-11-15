@@ -47,7 +47,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="even">
 <td align="center">4</td>
 <td align="center">05. November 2018</td>
-<td align="left">Präregistrierung, <a href="material/instruction.html">Stimuli präparieren</a>, <a href="slides/sitzung04-prereg.html">Folien</a></td>
+<td align="left">Präregistrierung, <a href="material/instruction-stim_prep.html">Stimuli präparieren</a>, <a href="slides/sitzung04-prereg.html">Folien</a></td>
 </tr>
 <tr class="odd">
 <td align="center">5</td>
