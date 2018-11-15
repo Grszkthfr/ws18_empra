@@ -18,7 +18,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <table>
 <colgroup>
 <col width="4%" />
-<col width="14%" />
+<col width="13%" />
 <col width="81%" />
 </colgroup>
 <thead>
@@ -57,12 +57,12 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="even">
 <td align="center">6</td>
 <td align="center">19. November 2018</td>
-<td align="left"><em>Pilotieren</em></td>
+<td align="left">Pilotieren, <a href="slides/sitzung06-pilot.html">Folien</a></td>
 </tr>
 <tr class="odd">
 <td align="center">7</td>
 <td align="center">26. November 2018</td>
-<td align="left"><em><a href="material/instruction-experiment.html">Erhebung</a></em></td>
+<td align="left"><em>Programmieren/</em><a href="material/instruction-experiment.html"><em>Erhebung</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">8</td>
@@ -72,7 +72,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">9</td>
 <td align="center">10. Dezember 2018</td>
-<td align="left"><em>Auswertung</em></td>
+<td align="left"><em>Auswertung/</em><a href="material/instruction-experiment.html"><em>Erhebung</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">10</td>
@@ -106,6 +106,8 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tr>
 </tbody>
 </table>
+
+letzte Aktualisierung: 15. Nov 2018, 17:20:10
 
 ### Lizenz
 
