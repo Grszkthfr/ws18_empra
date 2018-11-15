@@ -62,7 +62,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">7</td>
 <td align="center">26. November 2018</td>
-<td align="left"><em>Erhebung</em></td>
+<td align="left"><em><a href="material/instruction-experiment.html">Erhebung</a></em></td>
 </tr>
 <tr class="even">
 <td align="center">8</td>
