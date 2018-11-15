@@ -5,6 +5,7 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 ## Vorbereitung
 
 ### PCs hochfahren
+
 +   alle drei Rechner hochfahren und mit den Account-Daten einloggen
     +   Benutzername: *bekannt*
     +   Passwort: *bekannt*
@@ -17,7 +18,6 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
     +   über *Open recent* (s.o.)
     +   über *Open...* die Datei **context-gaze_cue.py** öffnen
 +   Datei mit Klick auf <img src="img-instruction/exp_02_run.png" width="30"> ausführen
-
 
 ## Vor dem Experiment
 
@@ -37,7 +37,7 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 +   Fragebögen, Probandeninformation und Einverständiserklärung rauslegen
 +   **ausschließlich** Fragebögen mit Probandennummer beschriften
 
-### Proband begrüßen
+## Proband begrüßen
 
 +   Instruktion: „Hallo und herzlich Willkommen zu unserer Studie. Wir freuen uns, dass Sie sich zur Teilnahme bereit erklärt haben.“
 +   „Untersuchung läuft“ Schild an die Türe hängen
@@ -52,20 +52,20 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 +   Einwilligungserklärung in Ordner abheften
 +   Probandennummer in die Probandenliste eintragen
 
-### Experiment starten
+## Experiment starten
 
 +   Mit *Leertaste* auf der Experiment-Tastatur die Instruktionen aufrufen
 <img src="img-instruction/exp_05_inst1.png" width="750">  
 +   Proband selbständig durch die Instruktion klicken lassen
     +   ggf. auf Rückfragen antworten
 
-### Experiment beenden
+## Experiment beenden
 
 +   Der experimentelle Teil endet automatisch
 +   Zum Schluß Fragebögen ausfüllen lassen
 +   Versuchsteilnahme bestätigen
 
-### Nachbearbeitung
+## Nachbereitung
 
 +   PsychoPy schließen
     +   Falls ein Dialog aufpoppt, ob die Datei gespeichert werden soll, auf **No** klicken  
