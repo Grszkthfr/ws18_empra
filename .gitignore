@@ -5,4 +5,4 @@ _studenten
 _*
 
 # ignore links
-experiment - Verknüpfung.lnk
+*.lnk

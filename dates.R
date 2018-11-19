@@ -32,22 +32,22 @@ Thema <- c(
     'experimentelles Design, Präregistrierung, [Folien](slides/sitzung03-vorbereitung.html)',
     
     ### Sitzung 4
-    'Präregistrierung, [Stimuli präparieren](material/instruction.html), [Folien](slides/sitzung04-prereg.html)',
+    'Präregistrierung, [Stimuli präparieren](material/instruction-stim_prep.html), [Folien](slides/sitzung04-prereg.html)',
     
     ### Sitzung 5
     'Präregistrierung ([Power](http://rpsychologist.com/d3/NHST/)), Stimuli, [Folien](slides/sitzung05-power.html)',
     
     ### Sitzung 6
-    '*Pilotieren*',
+    'Pilotieren, [Folien](slides/sitzung06-pilot.html)',
     
     ### Sitzung 7
-    '*Erhebung*',
+    '*Programmieren/*[*Erhebung*](material/instruction-experiment.html)',
     
     ### Sitzung 8
     '**Entfällt**',
     
     ### Sitzung 9
-    '*Auswertung*',
+    '*Auswertung/*[*Erhebung*](material/instruction-experiment.html)',
     
     ### Sitzung 10
     '*Auswertung*',

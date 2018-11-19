@@ -1,0 +1,255 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "19.11.2018"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+```
+
+# Heute
+ --- 
+    
+##  Stimuli
+##  Halbzeit
+##  Experiment
+
+---
+class: inverse, center, middle
+
+## Stimuli
+
+---
+    
+## Stimuli
+    
+### Auswahl
+
+---
+class: inverse, center, middle
+
+## Halbzeit
+
+---
+class: inverse, center, middle
+
+## Experiment
+
+---
+
+## Experiment
+
+### Stimuli
+
++   Alle hochgeladen?
+
+---
+
+## Experiment
+
+### Texte
+
++   Instruktionstexte
+
+--
+    +   Was ist wichtig?
+        +   Immer Fixationskreuz fixieren
+        +   So schnell und so genau wie möglich reagieren
+        +   Gibt es noch Fragen?
+        +   Welche Knöpfe drücken? 
+        +   Gibt es Pausen?
+        +   Vielen Dank für die Teilnahme
+
+--
+
++ Pausetext (nach jedem Block)
+
+--
+
++   Warnung, zu langsam reagiert
+
+--
+
++   Auf Wiedersehen!
+    +   Fast! Erst noch Fragebögen. 
+
+---
+
+## Experiment
+
+### Pilotieren
+
++   Am 22. & 23.11.18, R. 011
++   max. 2 Termine (mit mind. 2 Teilnehmern)
++   Termine in [Wueteams](sitzung06-pilot.html#18)
+
+---
+
+## Experiment
+
+### Organisation
+
+#### [SONA](https://psywue.sona-systems.com/)
+
++   Termine, die Versuchspersonen buchen können
++   Studie anlegen: "Add New Study"
+    +   Standard study: **credit**
+    +   Study Name: *offen*, Brief Abstract: *offen*, Detailed Description: *offen*, Duration: *offen*, Stunden: *offen*, Researcher: *Jonas Großekathöfer*, Participant Sign-Up Deadline: *24h*, Participant Cancellation Deadline: *24h*, Should the Researcher receive an email notification when a participant signs up or cancels?: **Yes -- for sign-ups and cancellations**
+
+---
+
+## Experiment
+
+### Organisation
+
+#### [SONA](https://psywue.sona-systems.com/)
+
+.pull-left[
+
+#### [Wueteams](https://wueteams.uni-wuerzburg.de/)
+
++   Raumplan für das *R011-Verhaltenslabor@Suchotzki*
++   Labor buchen
+    +   ... aber auch wieder freigeben, wenn nicht benutzt!
+
+
+]
+
+--
+
+.pull-right[
+
+#### [Webmail](https://webmail.uni-wuerzburg.de/login.php)
+
++   Absagen, Verspätungen, Terminverschiebungen, etc. ...
+
+]
+
+--
+
+.center[
+
+[`r icon::fa_hand_point_right()` Accounts](../material/account.html)
+
+]
+
+---
+
+## Experiment
+
+### Erhebung
+
++   Erhebungsstart: ab 26.11.2018
++   Erhebungstage: Mo - Fr
+    +   kann sich noch ändern
++   Wer kann wann?
++   Wer ist die *Schlüsselperson*?
++   \> 70 Versuchspersonen (Power: n = 65 + Drop-outs)
+    +   p.P. ca. 12 Versuchspersonen
++   [Anleitung](../material/instruction-experiment.html)
+
+---
+
+## Experiment
+
+### Experimentalunterlagen
+
+--
+
++   Fragebögen, EVE, etc.
++   [alt.zip](../material/experimentunterlagen/alt.zip) herunterladen
++   Dokumente aktualisieren, Fehler/Fehlendes suchen, auf [*files*](files.uni-wuerzburg.de) hochladen
+
+---
+
+class: inverse, center, middle
+
+# Nächste Woche
+
+ ---
+    
+##  Pilotieren
+##  [Experimenttexte](sitzung06-pilot.html#12) verfassen `r icon::fa_square()`
+##  Studie anlegen ([SONA](sitzung06-pilot.html#15)) `r icon::fa_square()`
+##  Experimentalunterlagen `r icon::fa_square()`
+##  Programmieren: PsychoPy installieren
+##  Präreg abschließen (Jonas)
+
+---
+
+class: inverse, center, middle
+
+# Nächste Woche
+
+ ---
+    
+##  Pilotieren
+##  [Experimenttexte](sitzung06-pilot.html#12) verfassen
+##  Studie anlegen ([SONA](sitzung06-pilot.html#15)) 
+##  Experimentalunterlagen 
+##  Programmieren: PsychoPy installieren
+##  Präreg abschließen (Jonas)
+
+
+---
+
+## PsychopPy
+
++   PsychoPy installieren:
+    +   [Homepage](http://psychopy.org/), [Übersicht](http://psychopy.org/overview.html) und [Dokumentation](http://psychopy.org/api/api.html#api)
+        +   [Download](https://github.com/psychopy/psychopy/releases/tag/1.90.3): *StandalonePsychoPy2-1.90.3*
+            +   [Direktlink für MacOS](https://github.com/psychopy/psychopy/releases/download/1.90.2/StandalonePsychoPy2-1.90.3-MacOS.dmg)
+            +   [Direktlink für Windows](https://github.com/psychopy/psychopy/releases/download/1.90.2/StandalonePsychoPy2-1.90.3-win32.exe)
+
+--
+
+.center[
+`r icon::fa_exclamation_triangle(color = "deeppink", size = 3)`  
+
+Downloads dauern extrem lange, unbedingt vor der Sitzung herunterladen (und installieren)!
+
+Oder auf dem [*files*](files.uni-wuerzburg.de) herunterladen.
+]
+
+---
+
+class: inverse, center, middle
+
+# Noch Fragen?
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+
+## Bis nächsten Montag.
+
+`r icon::fa_smile(size = 5, color = "yellow")`
+
+
+.footnote[
+    
+ <font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]

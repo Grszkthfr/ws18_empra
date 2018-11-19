@@ -21,7 +21,7 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 
 ## Vor dem Experiment
 
-### Session Info eintragen
+### Experimentinformationen eintragen
 
 +   Probandennummern bei *subject* eintragen  
 <img src="img-instruction/exp_03_dialog.png">
