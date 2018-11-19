@@ -6,7 +6,7 @@ Anmerkung: Die Bilder können mit einem Klick vergrößert im Browser dargestell
 
 ## Netzlaufwerk
 
-[files.uni-wuerzburg.de](files.uni-wuerzburg.de): Zum Teilen von Dateien untereinander.
+[files.uni-wuerzburg.de](https://files.uni-wuerzburg.de): Zum Teilen von Dateien untereinander.
 
 [![](lib-account/wuefiles.gif)](https://grszkthfr.github.io/ws18_empra/material/lib-account/wuefiles.gif)
 
