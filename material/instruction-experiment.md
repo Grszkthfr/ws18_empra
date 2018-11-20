@@ -1,5 +1,7 @@
 # Experiment durchführen
 
+letzte Aktualisierung: 20.11.2018, 10:24
+
 Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsächlichen Darstellung abweichen.
 
 ## Vorbereitung
@@ -16,7 +18,7 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 +   Datei öffnen (falls noch nicht geöffnet)  
 <img src="img-instruction/exp_01_fileopen.png">
     +   über *Open recent* (s.o.)
-    +   über *Open...* die Datei **context-gaze_cue.py** öffnen
+    +   über *Open...* die Datei **gcc-run.py** öffnen
 +   Datei mit Klick auf <img src="img-instruction/exp_02_run.png" width="30"> ausführen
 
 ## Vor dem Experiment
@@ -25,9 +27,9 @@ Anmerkung: Die Screenshots bestehen aus alten Bildern und können von der tatsä
 
 +   Probandennummern bei *subject* eintragen  
 <img src="img-instruction/exp_03_dialog.png">
-    +   Probandennummern dürfen ausschließlich Ziffern 0-9 enthalten
 +   Name des Versuchsleiters bei *experimenter* eintragen
-+   Nummer des Rechners beim *computer* eintragen
++   Nummer des Rechners bei *computer* eintragen
+    +   **entspricht der Anzahl der parallel getesteten Probanden(!)**
 +   Mit *OK* Experiment starten  
 +   Blanko Display erscheint auf dem Bildschirm
     <img src="img-instruction/exp_04_blank.png" width="750">
