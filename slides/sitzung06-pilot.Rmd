@@ -170,21 +170,6 @@ class: inverse, center, middle
  ---
     
 ##  Pilotieren
-##  [Experimenttexte](sitzung06-pilot.html#12) verfassen `r icon::fa_square()`
-##  Studie anlegen ([SONA](sitzung06-pilot.html#15)) `r icon::fa_square()`
-##  Experimentalunterlagen `r icon::fa_square()`
-##  Programmieren: PsychoPy installieren
-##  Präreg abschließen (Jonas)
-
----
-
-class: inverse, center, middle
-
-# Nächste Woche
-
- ---
-    
-##  Pilotieren
 ##  [Experimenttexte](sitzung06-pilot.html#12) verfassen
 ##  Studie anlegen ([SONA](sitzung06-pilot.html#15)) 
 ##  Experimentalunterlagen 
