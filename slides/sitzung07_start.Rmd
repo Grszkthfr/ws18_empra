@@ -1,0 +1,290 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "26.11.2018"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+### Sitzungen
+source("../dates.R", encoding = "UTF-8")
+
+
+```
+
+# Heute
+ --- 
+
+## Erhebungsstart
+## Zeitplan
+
+---
+class: inverse, center, middle
+
+
+## Erhebungsstart
+
+---
+
+## Was gibt es noch zu tun?
+
+--
+### Pilotieren
+
+--
+
+### Experiment (PsychoPy)
+
+--
+
+### SONA
+
+--
+
+### Experimentalunterlagen
+
+--
+
+###  Präreg abschließen (Jonas)
+
+---
+
+## Erhebungsstart
+
+### Experiment (PsychoPy)
+
+#### Texte
+
+#### Stimuli
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+Herzlich Willkommen bei unserer Studie „Blickfang“!
+
+Vielen Dank, dass Sie sich dafür entschieden haben an unserem Experiment teilzunehmen. Bitte achten Sie auf die weiteren Anweisungen.
+
+.pull-right[
+
+Weiter mit *Leertaste*
+
+]
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+Bitte bearbeiten Sie den Versuch möglichst konzentriert.
+
+Fokussieren Sie bitte immer das Fixationskreuz, wenn es erscheint und lassen Sie Ihre Hände während dem Versuch bitte auf der Tastatur. 
+
+.pull-right[
+
+Weiter mit *Leertaste*
+
+]
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+Im Versuch werden Ihnen verschiedene Bilder dargeboten.
+
+Im unteren Bereich der Bilder werden auf jeder Seite zwei graue Kästen erscheinen.
+
+Eins davon wird immer mit einem weißen E markiert.
+
+Wenn das linke Objekt markiert wurde, drücken Sie bitte das N.
+
+Wenn das rechte Objekt markiert wurde, drücken Sie bitte -U- .
+
+Bei Fragen wenden Sie sich bitte an den Versuchsleiter. 
+
+.pull-right[
+
+Weiter mit *Leertaste*
+
+]
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+Sie haben den -?- Block abgeschlossen. Nun können Sie ein paar Minute Pause machen. 
+
+.pull-right[
+
+Weiter mit *Leertaste*
+
+]
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+! ACHTUNG ! Sie waren zu langsam oder haben die falsche Taste gedrückt.
+
+Bitte versuchen Sie sich weiter zu konzentrieren. 
+
+---
+
+background-image: url(img/07-01_background-psychopy.png)
+background-size: cover
+
+class: inverse, center, middle
+
+
+Vielen Danke, dass Sie sich unsere Studie gemacht haben.
+
+Melden Sie sich bitte leise beim Versuchsleiter und füllen Sie den Fragebogen aus.
+
+---
+
+## Erhebungsstart
+
+### Experiment
+
+#### Stimuli
+
++   72 Bilder \* 2 Target position \* 2 Target id = **576 Trials**!
+    + Zu viel!
+
+`r icon::fa_arrow_right()` Pro Szene nur 2 Bilder:
+    
++   36 Bilder \* 2 Target position \* 2 Target id = **144 Trials**
+
+--
+    + in 2 Blöcken machbar (Pilotierung)?!
+
+---
+
+## Erhebungsstart
+
+### SONA
+
++   [Link zur Studie](https://psywue.sona-systems.com/exp_info.aspx?experiment_id=1261)
+
+--
+
++   Zeitslots freischalten, sobald
+    +   Pilotierung problemlos
+    +   Fragebögen fertig
+
+---
+
+## Erhebungsstart
+
+### Experimentalunterlagen
+
+.pull-left[
+
+####    Fragebögen
+
++   Demographie
++   [SIAS](https://econtent.hogrefe.com/doi/full/10.1026//0084-5345.28.1.28), [AQ-K](https://econtent.hogrefe.com/doi/full/10.1026/1616-3443.36.4.280), ... ?
+
+]
+
+--
+
+.pull-right[
+
+####    Experimentalordner
+
++   Checkliste
++   Protokoll
++   Unterschriften
+
+]
+
+---
+
+## Erhebungsstart
+
+###  Präreg abschließen (Jonas)
+
+---
+
+## Python-Tutorial
+
+-   Online Kurs-Material von der Radboud University Nijmegen [hier](https://www.socsci.ru.nl/wilberth/psychopy/00intro.html)
+    -   Print-/Singlepage-Version [hier](https://www.socsci.ru.nl/wilberth/nocms/psychopy/print.php)
+-   auf der offiziellen PsychoPy-Homepage: [hier](http://www.psychopy.org/resources/resources.html#materials-for-coder)
+
+---
+class: inverse, center, middle
+
+## Zeitplan
+
+---
+
+## Zeitplan
+
+<font size="-1">`r sitzung_html`</font>
+
+---
+
+class: inverse, center, middle
+
+# Nächste Woche
+
+ ---
+
+## **75** Veruschspersonen erheben
+
+---
+
+class: inverse, center, middle
+
+# Noch Fragen?
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+
+## Bis nächsten Montag.
+
+`r icon::fa_smile(size = 5, color = "yellow")`
+
+
+.footnote[
+    
+ <font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]

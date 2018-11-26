@@ -41,16 +41,16 @@ Thema <- c(
     'Pilotieren, [Folien](slides/sitzung06-pilot.html)',
     
     ### Sitzung 7
-    '*Programmieren/*[*Erhebung*](material/instruction-experiment.html)',
+    '~~Programmieren~~ Pilotieren/[*Erhebung*](material/instruction-experiment.html), [Folien](slides/sitzung07-start.html)',
     
     ### Sitzung 8
     '**Entfällt**',
     
     ### Sitzung 9
-    '*Auswertung/*[*Erhebung*](material/instruction-experiment.html)',
+    '*Auswertung (tidy data)/*[*Erhebung*](material/instruction-experiment.html)',
     
     ### Sitzung 10
-    '*Auswertung*',
+    '*Auswertung (stats)*',
     
     ### Sitzung 11
     '*Poster (Texte)*',
@@ -92,7 +92,7 @@ sitzungen <- data.frame(Nr., Termine, Thema) %>%
         'Nr.' = 1:n())
 
 ### Tabelle in html für slides
-sitzunge_html <- 
+sitzung_html <- 
     sitzungen %>%
     
     ### delete link to other slides in html table
@@ -108,6 +108,6 @@ sitzunge_html <-
         align = c("c","c","l"))
 
 ### Tabelle in markdown für index.md
-sitzung_md <- kable(sitzungen, format = 'markdown', align = c("c","c","l")) 
+sitzung_md <- kable(sitzungen, format = 'markdown', align = c("c","c","l"))
 
 rm(day, i, Nr., Thema, Termine)
