@@ -11,6 +11,8 @@ Informationen zu den verschiedenen Accounts, die im Laufe des Empras benötigt w
 
 [Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201046&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="\_blank"} bei Albrecht Sebald (Gruppe 1) nicht vergessen!
 
+[Präregistrierung](material/preregistration.html)
+
 ### Sitzungen
 
 Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der Marcusstraße 9-11, statt.
@@ -107,7 +109,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tbody>
 </table>
 
-letzte Aktualisierung: 26. Nov 2018, 14:07:55
+letzte Aktualisierung: 28. Nov 2018, 13:53:22
 
 ### Lizenz
 

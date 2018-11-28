@@ -17,6 +17,8 @@ Die aktuelle Modulbeschreibung findet ihr [hier](https://www2.uni-wuerzburg.de/m
 Informationen zu den verschiedenen Accounts, die im Laufe des Empras benötigt werden, findet ihr [hier](material/account.html).
 
 [Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201046&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="_blank"} bei Albrecht Sebald (Gruppe 1) nicht vergessen!
+
+[Präregistrierung](material/preregistration.html)
     
 ### Sitzungen
     
