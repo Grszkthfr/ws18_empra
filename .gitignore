@@ -1,8 +1,12 @@
 .Rhistory
 .Rproj.user
+
 # ignore files startging with
 _studenten
 _*
+
+# ignore slides/libs
+slides/lib/*
 
 # ignore links
 *.lnk
