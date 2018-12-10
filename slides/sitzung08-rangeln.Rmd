@@ -1,0 +1,192 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "10.12.2018"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+### Sitzungen
+source("../dates.R", encoding = "UTF-8")
+
+path_to_data = "C:\\Users\\jog54yy\\Documents\\eigene-projekte\\gc-context\\experiment\\data\\raw"
+
+dat <- read_csv(paste0(path_to_data,"\\gcc_2018-11-28_05.csv"))
+
+
+```
+
+# Heute
+ --- 
+
+## Erhebung
+## Daten
+## Zeitplan
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/Gipfel_Piz_mitgel.jpg)
+background-position: 50% 50%
+background-size: 100%
+
+class: inverse, center, middle
+
+## Erhebung
+
+---
+
+## Erhebung
+
+### Wie läuft's?
+
+??/75 Veruschspersonen erhoben
+
+--
+
+### Wie geht's weiter?
+
+---
+
+background-image: url(https://media.giphy.com/media/GcSqyYa2aF8dy/giphy.gif)
+background-position: 85% 15%
+
+## Erhebung
+
+### Wie läuft's?
+
+??/75 Veruschspersonen erhoben
+
+### Wie geht's weiter?
+
+Mein Vorschlag:
+
++   Bis Weihnachten noch mächtig die Werbetrommel rühren, und dann mit dem zufrieden sein, was wir bekommen haben
++   (ggf.) Nacherhebung im Rahmen einer Bachelorarbeit
++   Konsequenz: Ergebniss/Erkenntnisse wenig belastbar
+
+---
+
+## Übrigens: Prüfungsanmeldung
+
++   Erinnerung an die Umstellung von SB@Home auf WueStudy.
+    +   SB@Home wird am Freitag, dem 14.12.2018, um 17:00 Uhr abgeschaltet.
+    +   WueStudy](https://www.uni-wuerzburg.de/wuestudy/) startet am Montag, dem 07.01.2019, um 8:00 Uhr.
+
++   Holen Sie sich jetzt alle noch benötigten Bescheinigungen und Leistungsübersichten.
+    +   Prüfen Sie jetzt, ob Sie noch eine Online-Prüfungsanmeldung machen müssen, und achten Sie auf die Anmeldezeiträume.
+    
+.center[**Für Herrn Sebalds Empra zur Prüfung anmelden!**]
+
+---
+class: inverse, center, middle
+
+## Datenrangeln
+
+---
+
+### Best practices
+
+--
+
+#### [FAIR-Prinzip](https://www.nature.com/articles/sdata201618):
+
+**F**indable  
+**A**ccessible  
+**I**nteroperable  
+**R**useable  
+
+--
+
+#### [tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf):
+
+1.   Each variable forms a column.
+2.   Each observation forms a row.
+3.   Each type of observational unit forms a table.
+
+---
+
+### Unsere Daten
+
++   FAIR?
++   tidy?
+
+--
+
+![](https://r4ds.had.co.nz/diagrams/data-science-explore.png)  
+aus [R4DS](https://r4ds.had.co.nz/)
+
+---
+class: inverse, center, middle
+
+## Zeitplan
+
+---
+
+## Zeitplan
+
+<font size="-1">`r sitzung_html`</font>
+
+---
+
+class: inverse, center, middle
+
+# Nächste Woche
+
+ ---
+##  Was wollen wir analysieren?*
+##  Fragebogendaten eintragen
+## <img src="https://www.jamovi.org/assets/header-logo.svg" width="250">
+
+.footnote[
+
+\* ggf. [Preregistrierung](https://grszkthfr.github.io/ws18_empra/material/preregistration.html) lesen(v.a. *main question*, *dependent variable(s)* & *conditions*)
+
+]
+
+---
+
+## [![](https://www.jamovi.org/assets/header-logo.svg)](https://www.jamovi.org)
+
++   Wenn ihr mitarbeiten wollt, dann könnt ihr Jamovi herunterladen und installieren  
+    +   Die entsprechenden Versionen für euer Betriebssystem findet ihr [hier](https://www.jamovi.org/download.html)  
++   Eine (kurze) Anleitung zum Programm findet ihr [hier](https://www.jamovi.org/user-manual.html)
+
+---
+
+class: inverse, center, middle
+
+# Noch Fragen?
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+
+## Bis nächsten Montag.
+
+`r icon::fa_smile(size = 5, color = "yellow")`
+
+
+.footnote[
+
+ <font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]

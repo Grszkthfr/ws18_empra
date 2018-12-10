@@ -74,7 +74,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">9</td>
 <td align="center">10. Dezember 2018</td>
-<td align="left"><em>Auswertung (tidy data)/</em><a href="material/instruction-experiment.html"><em>Erhebung</em></a></td>
+<td align="left">Auswertung (tidy data), <a href="material/01_read_wrangle_data.html">Datenrangeln</a>, <a href="slides/sitzung08-rangeln.html">Folien</a></td>
 </tr>
 <tr class="even">
 <td align="center">10</td>
@@ -109,7 +109,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tbody>
 </table>
 
-letzte Aktualisierung: 28. Nov 2018, 13:53:22
+letzte Aktualisierung: 10. Dez 2018, 12:46:03
 
 ### Lizenz
 

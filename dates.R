@@ -47,7 +47,7 @@ Thema <- c(
     '**Entfällt**',
     
     ### Sitzung 9
-    '*Auswertung (tidy data)/*[*Erhebung*](material/instruction-experiment.html)',
+    'Auswertung (tidy data), [Datenrangeln](material/01_read_wrangle_data.html), [Folien](slides/sitzung08-rangeln.html)',
     
     ### Sitzung 10
     '*Auswertung (stats)*',
