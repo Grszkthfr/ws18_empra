@@ -1,8 +1,8 @@
 ## Fragebogendaten
 
-Idealerweise, die Fragebogendaten in ein offenes Tabellenformat eintragen. Damit die Daten in Zukunft [FAIR](https://www.nature.com/articles/sdata201618) sein können.
+Idealerweise, die Fragebogendaten in ein offenes Tabellenformat eintragen, damit die Daten in Zukunft [FAIR](https://www.nature.com/articles/sdata201618) sein können.
 
-+   Beispiele für offene Dateiformate: [*.csv* oder *.tsv*](https://de.wikipedia.org/wiki/CSV_(Dateiformat)#Dateiaufbau) ), [*.txt*](https://de.wikipedia.org/wiki/Textdatei), ...
++   Beispiele für offene Dateiformate: [*.csv* oder *.tsv*](https://de.wikipedia.org/wiki/CSV_(Dateiformat)#Dateiaufbau), [*.txt*](https://de.wikipedia.org/wiki/Textdatei), ...
 +   Beispiele für [proprietäre](https://de.wikipedia.org/wiki/Propriet%C3%A4r) Dateiformate: .xls, .xlsx, .sav, ...
 
 ### AQ-K

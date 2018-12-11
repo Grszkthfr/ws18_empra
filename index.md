@@ -109,7 +109,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tbody>
 </table>
 
-letzte Aktualisierung: 11. Dez 2018, 08:58:30
+letzte Aktualisierung: 11. Dez 2018, 09:03:24
 
 ### Lizenz
 
