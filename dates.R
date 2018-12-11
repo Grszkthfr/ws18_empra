@@ -50,7 +50,7 @@ Thema <- c(
     'Auswertung (tidy data), [Datenrangeln](material/01_read_wrangle_data.html), [Folien](slides/sitzung08-rangeln.html)',
 
     ### Sitzung 10
-    '*Auswertung (stats)*, [Fragebogendaten](material/fragebogendaten.md)',
+    '*Auswertung (stats)*, [Fragebogendaten](material/fragebogendaten.html)',
 
     ### Sitzung 11
     '*Poster (Texte)*',
