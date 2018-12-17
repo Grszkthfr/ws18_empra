@@ -15,9 +15,9 @@ Idealerweise, die Fragebogendaten in ein offenes Tabellenformat eintragen, damit
 ### SIAS-D
 
 +   Spaltenname: **sias01** bis **sias20**
-    +   Skala von
-        +   **0** für "Überhaupt nicht", bis
-        +   **4** für "Sehr stark" kodieren
++   Skala von
+    +   **0** für "Überhaupt nicht", bis
+    +   **4** für "Sehr stark" kodieren
 
 ### Fragen zum Experiment
 

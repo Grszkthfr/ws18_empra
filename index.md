@@ -79,7 +79,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="even">
 <td align="center">10</td>
 <td align="center">17. Dezember 2018</td>
-<td align="left"><em>Auswertung (stats)</em>, <a href="material/fragebogendaten.html">Fragebogendaten</a></td>
+<td align="left">Auswertung (stats), <a href="material/fragebogendaten.html">Fragebogendaten</a>, <a href="slides/sitzung09-modeln.html">Folien</a></td>
 </tr>
 <tr class="odd">
 <td align="center">11</td>
@@ -109,7 +109,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tbody>
 </table>
 
-letzte Aktualisierung: 11. Dez 2018, 09:03:24
+letzte Aktualisierung: 17. Dez 2018, 13:50:49
 
 ### Lizenz
 
