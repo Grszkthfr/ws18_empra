@@ -84,7 +84,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">11</td>
 <td align="center">07. Januar 2019</td>
-<td align="left"><em>Poster (Texte/Gestaltung)</em></td>
+<td align="left">Poster (Allgemein), <a href="slides/sitzung10-auswertung.html">Folien</a></td>
 </tr>
 <tr class="even">
 <td align="center">12</td>
@@ -94,7 +94,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 <tr class="odd">
 <td align="center">13</td>
 <td align="center">21. Januar 2019</td>
-<td align="left"><em>Poster (Gestaltung)</em></td>
+<td align="left"><em>Poster (Texte/Gestaltung)</em></td>
 </tr>
 <tr class="even">
 <td align="center">14</td>
@@ -109,7 +109,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum 213** der
 </tbody>
 </table>
 
-letzte Aktualisierung: 08. Jan 2019, 08:36:54
+letzte Aktualisierung: 08. Jan 2019, 10:55:09
 
 ### Lizenz
 

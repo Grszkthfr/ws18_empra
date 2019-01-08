@@ -52,20 +52,20 @@ Thema <- c(
     ### Sitzung 10
     'Auswertung (stats), [Fragebogendaten](material/fragebogendaten.html), [Folien](slides/sitzung09-modeln.html)',
 
-    ### Sitzung 11
-    'Poster (Allgemein),  [Folien](slides/sitzung10-auswertung.html)',
+    ### Sitzung 11: Weihnachten
+    '**Entfällt**',
 
-    ### Sitzung 12
-    '*Poster (Texte)*',
+    ### Sitzung 12: Neujahr
+    '**Entfällt**',
 
     ### Sitzung 13
-    '*Poster (Texte/Gestaltung)*',
+    'Poster (Allgemein), [Folien](slides/sitzung10-auswertung.html)',
 
     ### Sitzung 14
     '*Poster (Texte/Gestaltung)*',
 
     ### Sitzung 15
-    '*Poster (Gestaltung)*',
+    '*Poster (Texte/Gestaltung)*',
 
     ### Sitzung 16
     '*Poster (Gestaltung)*',
