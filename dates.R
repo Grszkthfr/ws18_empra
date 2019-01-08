@@ -53,7 +53,7 @@ Thema <- c(
     'Auswertung (stats), [Fragebogendaten](material/fragebogendaten.html), [Folien](slides/sitzung09-modeln.html)',
 
     ### Sitzung 11
-    '*Poster (Texte)*',
+    'Poster (Allgemein),  [Folien](slides/sitzung10-auswertung.html)',
 
     ### Sitzung 12
     '*Poster (Texte)*',
