@@ -1,0 +1,135 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "14.01.2019"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+```
+
+# Heute
+
+ --- 
+
+## Prüfung
+## Auswertung
+## Poster
+
+---
+class: center, middle, inverse
+
+## Prüfung
+
+---
+
+## Prüfung
+
++   15 Minuten, 10 Minuten Vorstellung der Forschungsarbeit, 5 Minuten offene Fragen
+
++   Abstimmung:
+    +   Fr., 01.02.19
+    +   Di., 05.02.19
+    +   Mi., 06.02.19
+
++   Termine von 13:00h bis 15:00h
+    +   immer zu *voll*, *20 nach* und *20 vor*
+
+---
+class: center, middle, inverse
+
+## Auswertung
+
+---
+
+## Auswertung
+
+### VP35
+
++   tatsächlich: VP36 fehlt auch, ist VP35(2) = VP36?
+
+--
+
+### Fragebögen
+
++   [AQ-K](https://econtent.hogrefe.com/doi/full/10.1026/1616-3443.36.4.280): "Die Sensitivitätsanalyse ergab einen cut-off-Wert von 17."
++   [SIAS/D](https://econtent.hogrefe.com/doi/full/10.1026//0084-5345.28.1.28): 
+"Eine Diskriminanzanalyse mit einem cut-off-Wert der SIAS ≥ 34 ergab eine korrekte Zuordnung von jeweils 82 % der Soziophobiker und der Kontrollpersonen"
+
+--
+
+### Inferenzstatistisch
+
++   Auswertung mit Median (statt Mittelwert) kein Unterschied
+
+---
+class: center, middle, inverse
+
+## Poster
+
+---
+
+## Poster
+
+### Design
+
++   [Allgemeine Tipps](https://www.rz.uni-wuerzburg.de/dienste/druck/posterdruck/postergestaltung/) und [Anleitung zum Erstellen von geeigneten PDFs](https://www.rz.uni-wuerzburg.de/dienste/druck/posterdruck/pdf-erzeugung/) vom Druckzentrum
+
+---
+
+## Poster
+
+### Aufgabenaufteilung
+
+#### Layout
+
+#### Einleitung & Methoden
+
+#### Ergebnisse & Diskussion
+
+---
+
+## Poster
+
+### Zeitplan
+
++   Poster druckfertig: Mi, 30.01.19
+
++   Poster abholen: Fr., 01.02.19 oder Mo., 04.02.19
+    +   Öffnungszeiten Druckzentrum: Mo.-Do. 9:00-16:30 Uhr, Fr. 9:00-13:00 Uhr
+
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+
+## Bis nächsten Montag.
+
+`r icon::fa_smile(size = 5, color = "yellow")`
+
+
+.footnote[
+    
+ <font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]
