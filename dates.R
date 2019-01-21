@@ -62,7 +62,7 @@ Thema <- c(
     'Poster (Allgemein), [Folien](slides/sitzung10-auswertung.html)',
 
     ### Sitzung 14
-    '*Poster (Texte/Gestaltung)*',
+    'Poster (Texte/Gestaltung), [Folien](slides/sitzung11-poster.html)',
 
     ### Sitzung 15
     '*Poster (Texte/Gestaltung)*',
