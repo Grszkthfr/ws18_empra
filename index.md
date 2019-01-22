@@ -17,7 +17,7 @@ benötigt werden, findet ihr [hier](material/account.html).
 [Prüfungsanmeldung](https://www-sbhome1.zv.uni-wuerzburg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=201046&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung){:target="\_blank"}
 bei Albrecht Sebald (Gruppe 1) nicht vergessen!
 
-[Präregistrierung](material/preregistration.html)
+[Präregistrierung](https://aspredicted.org/8kf4m.pdf)
 
 ### Sitzungen
 
@@ -116,7 +116,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum
 </tbody>
 </table>
 
-letzte Aktualisierung: 21. Jan 2019, 08:55:38
+letzte Aktualisierung: 22. Jan 2019, 15:36:48
 
 ### Lizenz
 
