@@ -105,9 +105,9 @@ class: center, middle, inverse
 | Leonie  | 13:00h - 13:15h |
 | Sonja   | 13:20h - 13:35h |
 | Severin | 13:40h - 13:55h |
-| Carolin | 14:00h - 14:15h |
-| Isabel  | 14:20h - 14:35h |
-
+| Eda     | 14:00h - 14:15h |
+| Carolin | 14:20h - 14:35h |
+| Isabel  | 14:40h - 14:55h |
 ---
 class: inverse, center, middle
 
