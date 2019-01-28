@@ -1,0 +1,194 @@
+---
+title: "Einführung in empirische und experimentelle Forschungsmethoden"
+subtitle: "Gruppe 08"
+author: "Jonas Großekathöfer"
+date: "28.01.2019"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts", "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #ratio: "16:9"
+
+---
+class: inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(tidyverse)
+#library(kableExtra)
+library(knitr)
+
+source("../dates.R", encoding = "UTF-8")
+
+```
+
+# Heute
+ ---
+
+## Poster
+## Posterkongress
+## Prüfung
+## Hinter den Kulissen
+## Feedback
+
+---
+class: center, middle, inverse
+
+## Poster
+
+---
+
+## Poster
+
+### Design
+
++   [Allgemeine Tipps](https://www.rz.uni-wuerzburg.de/dienste/druck/posterdruck/postergestaltung/) und [Anleitung zum Erstellen von geeigneten PDFs](https://www.rz.uni-wuerzburg.de/dienste/druck/posterdruck/pdf-erzeugung/) vom Druckzentrum
+
+--
+
++   Sonst noch was?
+
+---
+
+## Poster
+
+### Zeitplan
+
++   Poster druckfertig: Mi., 30.01.19
+
++   Poster bis zur Prüfung abholen
+    +   Öffnungszeiten Druckzentrum: Mo.-Do. 9:00-16:30 Uhr, Fr. 9:00-13:00 Uhr
+
+---
+class: center, middle, inverse
+
+## Posterkongress
+
+---
+
+## Posterkongress
+
+### Organisatorisches
+
++   Getränke?
+
+--
+
++   Snacks
+
+--
+
++   Wo: Lehrstuhl I, Marcusstraße 9-11, im Foyer 
++   Wann: Mittwoch, 06.02.19, 18:00h (voraussichtlich bis 19:30h)
+
+
+---
+class: center, middle, inverse
+
+## Prüfung
+
+---
+
+## Prüfung
+
++   15 Minuten, 10 Minuten Vorstellung der Forschungsarbeit, 5 Minuten offene Fragen
+
++   Prüfung am Mi., 06.02.19
+
+| Wer     | Wann            |
+|:--------|:---------------:|
+| Leonie  | 13:00h - 13:15h |
+| Sonja   | 13:20h - 13:35h |
+| Severin | 13:40h - 13:55h |
+| Carolin | 14:00h - 14:15h |
+| Isabel  | 14:20h - 14:35h |
+
+---
+class: inverse, center, middle
+
+## Blick hinter die Kulissen
+
+---
+
+## Blick hinter die Kulissen
+
++   Material gehosted auf [`r icon::fa_github()` github](https://github.com/Grszkthfr/ws18_empra)
+    +   [Empra Material](https://github.com/Grszkthfr/ws18_empra)
+        +   Website
+        +   Skripte
+    +   [Experiment](https://github.com/Grszkthfr/gc-context)
+        +   Code fürs Experiment
+        +   Code für die Stimulusmanipulation
+    
++   Projekt (gesammelt) erreichbar über [`r icon::ai_osf()` open science framework](https://osf.io/jvbsf/)
+    +   Link zum Material (s.o.)
+    +   Code fürs Experiment (s.o.)
+    +   bald: Daten (verschlüsselt)
+    +   Preregistration
+    +   ...
+
+---
+class: inverse, center, middle
+
+## Feedback
+
+---
+
+## Feedback
+
++   (anonyme) Email an mich
+
++   Semesterverlauf
+    +   `r icon::fa_circle(color = "red")` Aufwand
+    +   `r icon::fa_circle(color = "blue")` Motivation
+    +   `r icon::fa_circle(color = "yellow")` Zufriedenheit
+    +   `r icon::fa_circle(color = "green")` Stimmung in der Gruppe
+    +   `r icon::fa_circle(color = "brown")` Verständnis/Durchblick
+    +   `r icon::fa_circle(color = "purple")` *offen*
+
++   Abschlusssitzung (ggf. im Anschluss an die letzte Prüfung)
+
+???
+
++   Struktur der Veranstaltung
+
++   Wie war die Organisation?
+    +   Wie war die Website?
+    +   Wie oft benutzt?
+    +   Wie gut zurecht gefunden?
+    +   Sollte das interaktiver sein?
+
++   Was hat gefehlt?
+
++   Vorstellung erhalten, was Wissenschaft ist und bedeutet?
+
++   Temperatur / Belüftung im Raum?
+
+---
+
+## Sitzungen
+
+<font size="-1">`r sitzung_html`</font>
+
+---
+class: inverse, center, middle
+
+# Vielen Dank für Eure Aufmerksamkeit!
+
+## Bis nächsten **Mittwoch**.
+
+`r icon::fa_smile(size = 5, color = "yellow")`
+
+
+.footnote[
+    
+ <font size="-2">Slides created via the R packages [**xaringan**](https://github.com/yihui/xaringan) and [knitr](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</font size>
+
+]
