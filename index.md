@@ -106,7 +106,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum
 <tr class="even">
 <td style="text-align: center;">14</td>
 <td style="text-align: center;">28. Januar 2019</td>
-<td style="text-align: left;">Poster (Gestaltung), <a href="slides/sitzung13-auswertung.html">Folien</a></td>
+<td style="text-align: left;">Poster (Gestaltung), <a href="slides/sitzung13-abschluss.html">Folien</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">15</td>
@@ -116,7 +116,7 @@ Die Sitzungen finden **Montags**, von **14.15h bis 15.45h**, im **Raum
 </tbody>
 </table>
 
-letzte Aktualisierung: 28. Jan 2019, 14:13:00
+letzte Aktualisierung: 29. Jan 2019, 11:49:03
 
 ### Lizenz
 

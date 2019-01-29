@@ -68,7 +68,7 @@ Thema <- c(
     'Poster (Texte/Gestaltung), Feedback',
 
     ### Sitzung 16
-    'Poster (Gestaltung), [Folien](slides/sitzung13-auswertung.html)',
+    'Poster (Gestaltung), [Folien](slides/sitzung13-abschluss.html)',
 
     ### Sitzung 17
     "Prüfung und Posterkongress vsl. am Mittwoch, den 06. Februar 2019" 
