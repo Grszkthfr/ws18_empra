@@ -8,5 +8,13 @@ _*
 # ignore slides/libs
 slides/lib/*
 
+# ignore experimental documents
+material/experimentunterlagen/*
+
+# ignore power simulation
+material/power/*
+
+# ignore .omv
+
 # ignore links
 *.lnk
